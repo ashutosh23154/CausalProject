@@ -1,0 +1,15 @@
+Stage,Pollutant,Jump (Coef),P-Value,R-Squared,Interpretation
+Stage 1 (Mar '18),PM2.5,10.54,0.441,0.027,No Effect
+Stage 1 (Mar '18),PM10,66.76,0.003**,0.04,Sig. Increase (Dust)
+Stage 2 (Aug '18),PM2.5,-38.87,0.000***,0.509,Sig. Decrease (Rain/Monsoon)
+Stage 2 (Aug '18),PM10,-211.2,0.000***,0.738,Sig. Decrease (Rain/Monsoon)
+Stage 3 (Oct '18),PM2.5,-41.38,0.111,0.153,No Effect (Regional Smoke)
+Stage 3 (Oct '18),PM10,-107.1,0.004**,0.064,Sig. Decrease (Unclear)
+Stage 4 (Dec '18),PM2.5,-2.95,0.900,0.106,No Effect (Winter Peak)
+Stage 4 (Dec '18),PM10,-10.48,0.739,0.161,No Effect (Winter Peak)
+Stage 5 (Aug '21) - Local,PM2.5,26.41,0.000***,0.121,Sig. Increase (Local Shock)
+Stage 5 (Aug '21) - Local,PM10,47.26,0.000***,0.473,Sig. Increase (Local Shock)
+Combined (Aug '21) - Linear,PM2.5,16.62,0.000***,0.245,Sig. Increase (Regional)
+Combined (Aug '21) - Linear,PM10,51.44,0.000***,0.556,Sig. Increase (Regional)
+Combined (Aug '21) - Quad,PM2.5,30.26,0.000***,0.332,Robust Increase (Regional)
+Combined (Aug '21) - Quad,PM10,12.2,0.336 (NS),0.587,Artifact of Linear Model (Trend)
